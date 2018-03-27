@@ -24,5 +24,6 @@ function currentLine(katzDeliLine){
     result += ` ${i+1}. `
     result += `${katzDeliLine[i]},`
   }
+  result = result.slice(0,-2)
   return result
 }
